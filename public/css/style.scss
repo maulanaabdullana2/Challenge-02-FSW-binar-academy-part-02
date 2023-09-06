@@ -1,0 +1,222 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+main {
+    background-color: #F1F3FF;
+    min-height: 500px;
+}
+
+.navbar {
+    .btn-register {
+        background-color: #5CB85F;
+        color: #ffff;
+        border-radius: 0;
+        &:hover {
+            background-color: white;
+            color: #232323;
+        }
+    }
+}
+
+.btn-utama {
+    background-color: #5CB85F;
+    color: #ffff;
+    border-radius: 0;
+    &:hover {
+        color: #5CB85F;
+        background-color: #FFFFFF;
+        border: 1px solid #5CB85F;
+    }
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.why {
+    margin-top: 100px;
+    .card-why {
+        box-sizing: border-box;
+        border-radius: 6px;
+        border: 1px solid #D0D0D0;
+        padding: 18px;
+        gap: 16px;
+        margin: 5px 0;
+    }
+}
+
+.bagiancarousel {
+    .item {
+        max-width: 619px;
+        .card {
+            background-color: #F1F3FF;
+            .gambarorang {
+                width: 120px !important;
+                align-items: center;
+            }
+            .card-body {
+                text-align: left;
+            }
+        }
+    }
+}
+
+.sewa {
+    margin-top: 100px;
+    .container {
+        background-color: #0D28A6;
+        border-radius: 10px;
+        p {
+            line-height: 20px;
+            padding: 0 420px;
+            font-size: 14px;
+        }
+    }
+}
+
+.faq {
+    margin-top: 100px;
+    .title-faq {
+        text-align: left;
+    }
+}
+
+footer {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.search {
+    margin-top: -50px;
+    .search__card {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        .search__time {
+            .form-select {
+                background-image: url('../images/fi_clock.png');
+                background-size: 20px auto;
+            }
+        }
+        .form-select {
+            &:hover {
+                border: 1px solid #5CB85F;
+                border-radius: 2px;
+            }
+            option {
+                &:hover,
+                &:checked {
+                    background: #C9E7CA;
+                    color: #5CB85F;
+                }
+            }
+        }
+    }
+}
+
+.cars {
+    margin-top: 30px;
+    .card {
+        width: 340px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        .card-img-top {
+            width: 320px;
+            height: 180px;
+            object-fit: cover;
+        }
+        .cars__p {
+            font-size: 14px;
+            line-height: 20px;
+            height: 100px;
+        }
+    }
+}
+
+@media (max-width:1199px) {
+    .sewa {
+        margin-top: 100px;
+        .container {
+            background-color: #0D28A6;
+            border-radius: 10px;
+            p {
+                line-height: 20px;
+                padding: 0 200px;
+                font-size: 14px;
+            }
+        }
+    }
+    .cars {
+        .card {
+            width: 280px;
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+            .card-img-top {
+                width: 260px;
+            }
+        }
+    }
+}
+
+@media (max-width:992px) {
+    .owl-carousel {
+        .owl-stage-outer {
+            // overflow: visible;
+            .owl-item {
+                img {
+                    width: 80px !important;
+                }
+                .card {
+                    max-width: 350px;
+                    .card-body {
+                        img {
+                            margin-right: auto;
+                            margin-left: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sewa {
+        .container {
+            h1 {
+                padding: 0 70px;
+            }
+            p {
+                padding: 0 80px;
+                font-size: 15px;
+            }
+        }
+    }
+    .faq {
+        .title-faq {
+            text-align: center;
+            h2 {
+                font-weight: bold;
+                font-size: 30px;
+            }
+            p {
+                margin: 30px 0;
+            }
+        }
+    }
+    .cars {
+        margin-top: 30px;
+        .card {
+            width: 500px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
+            .card-img-top {
+                width: 480px;
+                height: 250px;
+            }
+            .cars__p {
+                font-size: 14px;
+                line-height: 20px;
+                height: 50px;
+            }
+        }
+    }
+}

@@ -3,13 +3,12 @@
 - Mulai modifikasi file `server/index.js` apabila ingin membuat HTTP server.
 - Mulai modifikasi folder `public` apabila ingin memodifikasi HTML.
 
-## Run Website
-''''''
-npm install
-npm start
-localhost:8080
-'''''''
-
+## Run Website 
+```
+1. npm install
+2. npm start
+3. localhost:8000
+```
 # `Binar` class
 
 Class ini berisi 1 static method saja, yang berfungsi untuk mengambil data mobil dari internet.
